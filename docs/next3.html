@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title>構文音源</title>
+  </head>
+  <body>
+    <img src="mark.jpg" width="120" height="30" align="right">
+    <h1>構文音源</h1>
+    <p><font size="4">受付に貸出用CDがありますのでダウンロードが必要な方は受付までお越しください。</font></p>
+    <p><center><strong><font size="5">３１番～４０番</font><strong></center></p>
+
+<nav>
+        <ul>
+        <li><a href="index.html">1~10番</a>
+        <li><a href="next1.html">11~20番</a>
+        <li><a href="next2.html">21~30番</a>
+        <li><a href="next3.html">31~40番</a>
+        </ul>
+    </nav>
+    <style>
+        nav ul{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        }
+        nav ul li{
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+        margin-right: 10px;
+        }
+        nav ul li a::after,
+        nav ul li a::before {
+        display: block;
+        content: ”;
+        position: absolute;
+        }
+        nav ul li a::after {
+        top: 10%;
+        right: 0;
+        width: 13px;
+        height: 13px;
+        background-color: #ccc;
+        border-radius: 100%;
+        }
+        nav ul li a.current::after,
+        nav ul li a:hover:after{
+        background-color: #3498db;
+        }
+        nav ul li a::before {
+        z-index: 2;
+        top: 40%;
+        right: 5px;
+        width: 5px;
+        height: 5px;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        }
+        nav ul li a{
+        text-decoration: none;
+        color:#aaa;
+        display: inline-block;
+        width: 100%;
+        }
+        nav ul li a.current{
+        color:#555;
+        }
+        nav ul li a:hover{
+        color:#555;
+        }
+    </style>
+   
+   <p><strong><font size="5">31番</font><strong></p>
+    <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+        ①　In general the relation between parents and children is essentially based on teaching.<br>
+        ②　Many of us forget this.<br>
+        ③　Some think it is based on love, others on control.<br>
+        ④　But you can give a child as much love as it can absorb and still make it an idiot unfit to face the world;<br>
+        ⑤　while the best and surest way to control your children is to explain the rules you intend to enforce.
+            </div></p>
+    <audio id="audio31" controls loop>
+        <source src="構文音声ファイル\No. 31.m4a">
+     </audio> 
+    <div>
+        <button type="button" onclick="pSpeed31()">0.75X再生</button>
+        <button type="button" onclick="dSpeed31()">1X再生</button>
+        <button type="button" onclick="fSpeed31()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media31 = document.getElementById("audio31");
+        function pSpeed31(){
+        media31.playbackRate = 0.75;
+        }
+        function dSpeed31(){
+        media31.playbackRate = 1;
+        }   
+        function fSpeed31(){
+        media31.playbackRate = 1.25;
+        }  
+    </script>
+
+    <p><strong><font size="5">32番</font><strong></p>
+    <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+        ①　Facts are to science what words are to the poets.<br>
+        ②　The scientist has a love of facts, even isolated facts, similar to the poet’s love of words.<br>
+        ③　But a collection of facts is not science any more than a dictionary is poetry.<br>
+        ④　Around his facts the scientist weaves a logical pattern or theory which gives the facts meaning, order, and significance.
+        </div></p>   
+    <audio id="audio32" controls loop>
+        <source src="構文音声ファイル\No. 32.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed32()">0.75X再生</button>
+        <button type="button" onclick="dSpeed32()">1X再生</button>
+        <button type="button" onclick="fSpeed32()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media32 = document.getElementById("audio32");
+        function pSpeed32(){
+        media32.playbackRate = 0.75;
+        }
+        function dSpeed32(){
+        media32.playbackRate = 1;
+        }
+        function fSpeed32(){
+        media32.playbackRate = 1.25;
+        }  
+    </script>
+
+    <p><strong><font size="5">33番</font><strong></p>
+    <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+        ①　A pet theory of mine is that things should be seen from a distance ―― never close-up, but always from a distance.<br>
+        ②　Seen close-up, things have a way of showing their defects, their innate ugliness.<br>
+        ③　For nothing is so beautiful but it betrays some defect on close inspection.<br>
+        ④　Seen from a distance, however, their defects disappear, and only their charm remains.
+        </div></p>   
+    <audio id="audio33" controls loop>
+        <source src="構文音声ファイル\No. 33.m4a">
+     </audio>
+    <div>
+        <button type="button" onclick="pSpeed33()">0.75X再生</button>
+        <button type="button" onclick="dSpeed33()">1X再生</button>
+        <button type="button" onclick="fSpeed33()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media33 = document.getElementById("audio33");
+        function pSpeed33(){
+        media33.playbackRate = 0.75;
+        }
+        function dSpeed33(){
+        media33.playbackRate = 1;
+        }
+        function fSpeed33(){
+        media33.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">34番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　The first subject that attracted my attention was religion.<br>
+            ②　For it seemed to me of the greatest importance to decide whether this world I lived in was the only one I had to think about or whether I must look upon it as no more than a place of trial which was to prepare me for a life to come.
+            </div></p>   
+    <audio id="audio34" controls loop>
+        <source src="構文音声ファイル\No. 34.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed34()">0.75X再生</button>
+        <button type="button" onclick="dSpeed34()">1X再生</button>
+        <button type="button" onclick="fSpeed34()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media34 = document.getElementById("audio34");
+        function pSpeed34(){
+        media34.playbackRate = 0.75;
+        }
+        function dSpeed34(){
+        media34.playbackRate = 1;
+        }
+        function fSpeed34(){
+        media34.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">35番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　Science is a good thing, but it is not an end in itself;<br>
+            ②　it is a means toward an end and that end is human betterment.<br>
+            ③　As scientists keep insisting, there is neither good or bad in any scientific discovery;<br>
+            ④　it is the use to which it is put which makes it beneficial or dangerous;<br>
+            ⑤　and the decision does not lie with the scientists themselves but with society.
+            </div></p>   
+    <audio id="audio35" controls loop>
+        <source src="構文音声ファイル\No. 35.m4a">
+     </audio>
+    <div>
+        <button type="button" onclick="pSpeed35()">0.75X再生</button>
+        <button type="button" onclick="dSpeed35()">1X再生</button>
+        <button type="button" onclick="fSpeed35()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media35 = document.getElementById("audio35");
+        function pSpeed35(){
+        media35.playbackRate = 0.75;
+        }
+        function dSpeed35(){
+        media35.playbackRate = 1;
+        }
+        function fSpeed35(){
+        media35.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">36番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　Language is an indispensable instrument of human society.<br>
+            ②　It is the means by which individuals understand each other and are enabled to function together as a community.<br>
+            ③　Indeed, it is unlikely that any human organization could either be formed or long maintained without language.<br>
+            ④　The effectiveness of human society, therefore, is largely dependent upon the clarity, accuracy, and efficiency with which language is used or understood.
+            </div></p>   
+    <audio id="audio36" controls loop>
+        <source src="構文音声ファイル\No. 36.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed36()">0.75X再生</button>
+        <button type="button" onclick="dSpeed36()">1X再生</button>
+        <button type="button" onclick="fSpeed36()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media36 = document.getElementById("audio36");
+        function pSpeed36(){
+        media36.playbackRate = 0.75;
+        }
+        function dSpeed36(){
+        media36.playbackRate = 1;
+        }
+        function fSpeed36(){
+        media36.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">37番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　Industry as we know it began in 1765, when James Watt developed the first practical steam engine.<br>
+            ②　With this unlimited source of mechanical power at his command, man finally escaped from monotonous, exhausting methods of doing the world’s work.<br>
+            ③　Human energy was directed to more constructive tasks, and during the next century civilization made more progress than in all the ages since the dawn of history.
+            </div></p>   
+    <audio id="audio37" controls loop>
+        <source src="構文音声ファイル\No. 37.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed37()">0.75X再生</button>
+        <button type="button" onclick="dSpeed37()">1X再生</button>
+        <button type="button" onclick="fSpeed37()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media37 = document.getElementById("audio37");
+        function pSpeed37(){
+        media37.playbackRate = 0.75;
+        }
+        function dSpeed37(){
+        media37.playbackRate = 1;
+        }
+        function fSpeed37(){
+        media37.playbackRate = 1.25;
+        }  
+    </script>
+        
+    <p><strong><font size="5">38番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　Differences between nations, so long as they do not lead to hostility, are by no means to be deplored.<br>
+            ②　Living for a time in a foreign country makes us aware of merits in which our own country is deficient.<br>
+            ③　The same thing holds of differences between different regions within one country, and of the differing types produced by different professions.<br>
+            ④　Uniformity of character and uniformity of culture are to be regretted.
+            </div></p>   
+    <audio id="audio38" controls loop>
+        <source src="構文音声ファイル\No. 38.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed38()">0.75X再生</button>
+        <button type="button" onclick="dSpeed38()">1X再生</button>
+        <button type="button" onclick="fSpeed38()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media38 = document.getElementById("audio38");
+        function pSpeed38(){
+        media38.playbackRate = 0.75;
+        }
+        function dSpeed38(){
+        media38.playbackRate = 1;
+        }
+        function fSpeed38(){
+        media38.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">39番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　To be an interesting person you have to feed and exercise your mind.<br>
+            ②　You cannot be interesting on an empty mind any more than you can be healthy on a diet of potato chips and no exercise.<br>
+            ③　You have to read and discuss and write a good deal before you can fulfill the wonderful opportunity you have to pass from ignorance to knowledge and interestingness.
+            </div></p>   
+    <audio id="audio39" controls loop>
+        <source src="構文音声ファイル\No. 39.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed39()">0.75X再生</button>
+        <button type="button" onclick="dSpeed39()">1X再生</button>
+        <button type="button" onclick="fSpeed39()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media39 = document.getElementById("audio39");
+        function pSpeed39(){
+        media39.playbackRate = 0.75;
+        }
+        function dSpeed39(){
+        media39.playbackRate = 1;
+        }
+        function fSpeed39(){
+        media39.playbackRate = 1.25;
+        }  
+    </script>
+    
+    <p><strong><font size="5">40番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　Strange is our situation here upon earth.<br>
+            ②　Each of us comes for a short visit, not knowing why, yet sometimes seeming to divine a purpose.<br>
+            ③　From the standpoint of daily life, however, there is one thing we do know :<br>
+            ④　that man is here for the sake of other men ―― above all for those upon whose smile and well-being our own happiness depends, and also for the countless unknown souls with whose fate we are connected by a bond of sympathy.
+            </div></p>   
+    <audio id="audio40" controls loop>
+        <source src="構文音声ファイル\No. 40.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed40()">0.75X再生</button>
+        <button type="button" onclick="dSpeed40()">1X再生</button>
+        <button type="button" onclick="fSpeed40()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media40 = document.getElementById("audio40");
+        function pSpeed40(){
+        media40.playbackRate = 0.75;
+        }
+        function dSpeed40(){
+        media40.playbackRate = 1;
+        }
+        function fSpeed40(){
+        media40.playbackRate = 1.25;
+        }  
+    </script>
+
+    <br><br>
+
+    <nav>
+        <ul>
+        <li><a href="index.html">1~10番</a>
+        <li><a href="next1.html">11~20番</a>
+        <li><a href="next2.html">21~30番</a>
+        <li><a href="next3.html">31~40番</a>
+        </ul>
+    </nav>
+    <style>
+        nav ul{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        }
+        nav ul li{
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+        margin-right: 10px;
+        }
+        nav ul li a::after,
+        nav ul li a::before {
+        display: block;
+        content: ”;
+        position: absolute;
+        }
+        nav ul li a::after {
+        top: 10%;
+        right: 0;
+        width: 13px;
+        height: 13px;
+        background-color: #ccc;
+        border-radius: 100%;
+        }
+        nav ul li a.current::after,
+        nav ul li a:hover:after{
+        background-color: #3498db;
+        }
+        nav ul li a::before {
+        z-index: 2;
+        top: 40%;
+        right: 5px;
+        width: 5px;
+        height: 5px;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        }
+        nav ul li a{
+        text-decoration: none;
+        color:#aaa;
+        display: inline-block;
+        width: 100%;
+        }
+        nav ul li a.current{
+        color:#555;
+        }
+        nav ul li a:hover{
+        color:#555;
+        }
+    </style>
+
+
+  </body>
+</html>

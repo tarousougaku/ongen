@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title>構文音源</title>
+  </head>
+  <body>
+    <img src="mark.jpg" width="120" height="30" align="right">
+    <h1>構文音源</h1>
+    <p><font size="4">受付に貸出用CDがありますのでダウンロードが必要な方は受付までお越しください。</font></p>
+    <p><font size="4">＊無断転載禁止</font></p>
+    <p><center><strong><font size="5">１番～１０番</font><strong></center></p>
+
+    <nav>
+        <ul>
+        <li><a href="index.html">1~10番</a>
+        <li><a href="next1.html">11~20番</a>
+        <li><a href="next2.html">21~30番</a>
+        <li><a href="next3.html">31~40番</a>
+        </ul>
+    </nav>
+    <style>
+
+        nav ul{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        }
+        nav ul li{
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+        margin-right: 10px;
+        }
+        nav ul li a::after,
+        nav ul li a::before {
+        display: block;
+        content: ”;
+        position: absolute;
+        }
+        nav ul li a::after {
+        top: 10%;
+        right: 0;
+        width: 13px;
+        height: 13px;
+        background-color: #ccc;
+        border-radius: 100%;
+        }
+        nav ul li a.current::after,
+        nav ul li a:hover:after{
+        background-color: #3498db;
+        }
+        nav ul li a::before {
+        z-index: 2;
+        top: 40%;
+        right: 5px;
+        width: 5px;
+        height: 5px;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        }
+        nav ul li a{
+        text-decoration: none;
+        color:#aaa;
+        display: inline-block;
+        width: 100%;
+        }
+        nav ul li a.current{
+        color:#555;
+        }
+        nav ul li a:hover{
+        color:#555;
+        }
+    </style>
+
+    <p><strong><font size="5">1番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+           ①　No one of us can cut ourselves off from the body of the community to which we belong.<br>
+           ②　We are indirectly dependent upon the labour of others for all the necessities and comforts of our lives.<br> 
+           ③　It should not be possible for us to enjoy them without giving something in return.
+    </div></p>
+    <audio id="audio1" controls loop>
+        <source src="構文音声ファイル\No. 1.m4a">
+     </audio>
+    <div>
+        <button type="button" onclick="pSpeed1()">0.75X再生</button>
+        <button type="button" onclick="dSpeed1()">1X再生</button>
+        <button type="button" onclick="fSpeed1()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media1 = document.getElementById("audio1");
+        function pSpeed1(){
+        media1.playbackRate = 0.75;
+        }
+        function dSpeed1(){
+        media1.playbackRate = 1;
+        } 
+        function fSpeed1(){
+        media1.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">2番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+           ①　Education must not be limited to our youth but must be a continuing process through our entire lives,<br>
+           ②　, for it is only through knowledge that we ,as a nation, can cope with the dangers that threaten our society. 
+    </div></p>
+    <audio id="audio2" controls loop>
+        <source src="構文音声ファイル\No. 2.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed2()">0.75X再生</button>
+        <button type="button" onclick="dSpeed2()">1X再生</button>
+        <button type="button" onclick="fSpeed2()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media2 = document.getElementById("audio2");
+        function pSpeed2(){
+        media2.playbackRate = 0.75;
+        }
+        function dSpeed2(){
+        media2.playbackRate = 1;
+        }
+        function fSpeed2(){
+        media2.playbackRate = 1.25;
+        }   
+    </script>
+
+    <p><strong><font size="5">3番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+           ①　If you can read rapidly and with good understanding, you will probably find it easy to remember a good deal of what you do read.<br>
+           ②　On the other hand, if you find reading a difficult and unpleasant job, even those things that you manage to learn by reading are likely to slip from your memory within a very short time.<br>
+           ③　In other words, the harder and more disagreeable reading is, the less it pays 
+        </div></p>
+    <audio id="audio3" controls loop>
+        <source src="構文音声ファイル\No. 3.m4a">
+     </audio>
+    <div>
+        <button type="button" onclick="pSpeed3()">0.75X再生</button>
+        <button type="button" onclick="dSpeed3()">1X再生</button>
+        <button type="button" onclick="fSpeed3()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media3 = document.getElementById("audio3");
+        function pSpeed3(){
+        media3.playbackRate = 0.75;
+        }
+        function dSpeed3(){
+        media3.playbackRate = 1;
+        }
+        function fSpeed3(){
+        media3.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">4番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　The failure of the average man is due, not to lack of ability, but to lack of ability to concentrate, to expend all his energy in the cultivation of one marked talent, instead of scattering his efforts on four or five possibilities.
+        </div></p>
+    <audio id="audio4" controls loop>
+        <source src="構文音声ファイル\No. 4.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed4()">0.75X再生</button>
+        <button type="button" onclick="dSpeed4()">1X再生</button>
+        <button type="button" onclick="fSpeed4()">1.25X再生</button>
+
+    </div>
+    <script type="text/javascript">
+        var media4 = document.getElementById("audio4");
+        function pSpeed4(){
+        media4.playbackRate = 0.75;
+        }
+        function dSpeed4(){
+        media4.playbackRate = 1;
+        }
+        function fSpeed4(){
+        media4.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">5番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　In later years, I confess that I do not envy the white boy as I once did.<br>
+            ②　I have learned that success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome while trying to succeed.
+        </div></p>
+    <audio id="audio5" controls loop>
+        <source src="構文音声ファイル\No. 5.m4a">
+     </audio>
+    <div>
+        <button type="button" onclick="pSpeed5()">0.75X再生</button>
+        <button type="button" onclick="dSpeed5()">1X再生</button>
+        <button type="button" onclick="fSpeed5()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media5 = document.getElementById("audio5");
+        function pSpeed5(){
+        media5.playbackRate = 0.75;
+        }
+        function dSpeed5(){
+        media5.playbackRate = 1;
+        }
+        function fSpeed5(){
+        media5.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">6番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　The fact that television frequently limits communication within families is already well known;<br>
+            ②　these new developments will further lead people to live within themselves and not reach out to other people.<br>
+            ③　Perhaps technology itself is creating individuals who are only concerned with their own interests.<br>
+            ④　Machines should not be allowed to ruin our sense of social responsibility.<br>
+            ⑤　Whether we admit it or not, we are all here together, and share a common fate.
+        </div></p>
+    <audio id="audio6" controls loop>
+        <source src="構文音声ファイル\No. 6.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed6()">0.75X再生</button>
+        <button type="button" onclick="dSpeed6()">1X再生</button>
+        <button type="button" onclick="fSpeed6()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media6 = document.getElementById("audio6");
+        function pSpeed6(){
+        media6.playbackRate = 0.75;
+        }
+        function dSpeed6(){
+        media6.playbackRate = 1;
+        }
+        function fSpeed6(){
+        media6.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">7番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　One lesson that life teaches as we grow older is that both our fears and our hopes are mostly illusions and are not to be taken too seriously.<br>
+            ②　Time after time we learn that that which we fear most in life never happens, or never happens exactly as we had dreaded.<br>
+            ③　In addition, we have undreamed-of strength to bear the difficulty.
+        </div></p>
+    <audio id="audio7" controls loop>
+        <source src="構文音声ファイル\No. 7.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed7()">0.75X再生</button>
+        <button type="button" onclick="dSpeed7()">1X再生</button>
+        <button type="button" onclick="fSpeed7()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media7 = document.getElementById("audio7");
+        function pSpeed7(){
+        media7.playbackRate = 0.75;
+        }
+        function dSpeed7(){
+        media7.playbackRate = 1;
+        }
+        function fSpeed7(){
+        media7.playbackRate = 1.25;
+        }   
+    </script>
+        
+    <p><strong><font size="5">8番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　No matter where you go, no matter who your ancestors were, what school or college you have attended, or who helps you, your best opportunity is in yourself.<br>
+            ②　The help you get from others is something outside of you, while it is what you are, what you do yourself that counts.
+        </div></p>
+    <audio id="audio8" controls loop>
+        <source src="構文音声ファイル\No. 8.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed8()">0.75X再生</button>
+        <button type="button" onclick="dSpeed8()">1X再生</button>
+        <button type="button" onclick="fSpeed8()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media8 = document.getElementById("audio8");
+        function pSpeed8(){
+        media8.playbackRate = 0.75;
+        }
+        function dSpeed8(){
+        media8.playbackRate = 1;
+        }
+        function fSpeed8(){
+        media8.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">9番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　When you have lived as long as I have, you will discover, I hope, that it is not what one sees on the outside, so much as what is in the inside of a man, which makes him happy and contended, or the contrary.
+        </div></p>
+    <audio id="audio9" controls loop>
+        <source src="構文音声ファイル\No. 9.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed9()">0.75X再生</button>
+        <button type="button" onclick="dSpeed9()">1X再生</button>
+        <button type="button" onclick="fSpeed9()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media9 = document.getElementById("audio9");
+        function pSpeed9(){
+        media9.playbackRate = 0.75;
+        }
+        function dSpeed9(){
+        media9.playbackRate = 1;
+        }
+        function fSpeed9(){
+        media9.playbackRate = 1.25;
+        }   
+    </script>
+    
+    <p><strong><font size="5">10番</font><strong></p>
+        <p><div style="background:#f7f7f7; padding:10px; border:2px dotted #CCCCCC;">
+            ①　If you find yourself bored by a book that well- informed people regard as important and readable, be honest with yourself and confess that probably the difficulty is not in the book but in you.<br>
+            ②　Often a book which now seems dull or difficult will prove easy to grasp and fascinating to read when you are more mature intellectually.
+        </div></p>
+    <audio id="audio10" controls loop>
+        <source src="構文音声ファイル\No. 10.m4a">
+    </audio>
+    <div>
+        <button type="button" onclick="pSpeed10()">0.75X再生</button>
+        <button type="button" onclick="dSpeed10()">1X再生</button>
+        <button type="button" onclick="fSpeed10()">1.25X再生</button>
+    </div>
+    <script type="text/javascript">
+        var media10 = document.getElementById("audio10");
+        function pSpeed10(){
+        media10.playbackRate = 0.75;
+        }
+        function dSpeed10(){
+        media10.playbackRate = 1;
+        }
+        function fSpeed10(){
+        media10.playbackRate = 1.25;
+        }   
+    </script>
+
+    <br><br>
+
+    <nav>
+        <ul>
+        <li><a href="index.html">1~10番</a>
+        <li><a href="next1.html">11~20番</a>
+        <li><a href="next2.html">21~30番</a>
+        <li><a href="next3.html">31~40番</a>
+        </ul>
+    </nav>
+    <style>
+        nav ul{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        }
+        nav ul li{
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+        margin-right: 10px;
+        }
+        nav ul li a::after,
+        nav ul li a::before {
+        display: block;
+        content: ”;
+        position: absolute;
+        }
+        nav ul li a::after {
+        top: 10%;
+        right: 0;
+        width: 13px;
+        height: 13px;
+        background-color: #ccc;
+        border-radius: 100%;
+        }
+        nav ul li a.current::after,
+        nav ul li a:hover:after{
+        background-color: #3498db;
+        }
+        nav ul li a::before {
+        z-index: 2;
+        top: 40%;
+        right: 5px;
+        width: 5px;
+        height: 5px;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        }
+        nav ul li a{
+        text-decoration: none;
+        color:#aaa;
+        display: inline-block;
+        width: 100%;
+        }
+        nav ul li a.current{
+        color:#555;
+        }
+        nav ul li a:hover{
+        color:#555;
+        }
+    </style>
+
+  </body>
+</html>
